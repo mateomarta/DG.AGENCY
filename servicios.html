@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>DG.agency</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo de la marca">
+        </div>
+
+        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+        <div id="mobile-menu" class="overlay">
+            <a onclick="closeNav()" href="#" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="index.htm">inicio</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="#contacto" onclick="navigateToContact()">Contacto</a>
+            </div>
+        </div>
+    </header>
+<body>
+    <main>
+        <section class="packages">
+            <div class="packages-intro">
+                <h2>¡Nuestros Paquetes!</h2>
+                <p>En DG somos conscientes de lo difícil que es la nueva era digital, por eso ofrecemos tres tipos de pack de servicios que cada uno puede ser adaptado a las necesidades específicas de tu empresa, emprendimiento o marca. Por esto te sugerimos que leas atentamente nuestras propuestas y luego llenes el formulario que se encuentra en el apartado de cotización.</p>
+                <br><br>
+                <p>Cada uno de nuestros paquetes está pensado para abordar diferentes aspectos de la transformación digital y está diseñado para ajustarse a la realidad única de tu negocio. Desde estrategias de marketing digital hasta soluciones tecnológicas avanzadas, nuestros servicios se adaptan a tus requerimientos particulares para garantizar que obtengas el máximo beneficio.</p>
+                <br><br>
+                <p>Te invitamos a revisar detenidamente nuestras propuestas para entender cómo podemos ayudarte a alcanzar tus objetivos. Una vez que hayas explorado nuestras opciones, te pedimos que completes el formulario de contacto que encontrarás en la sección correspondiente de nuestro sitio web. Esto nos permitirá entender mejor tus necesidades y ofrecerte una solución a medida que impulse el éxito de tu empresa.
+                </p>
+            </div>
+                <article class="package" id="pack1">
+                    <h4>MARKET PACK</h4>
+                    <div class="package-content">
+                        <div class="package-text">
+                            <ul>
+                                <li>Estudio y desarrollo de mercado.</li>
+                                <li>Creación de estrategias</li>
+                                <li>Potenciación de publicidad</li>
+                                <li>Análisis completo</li>
+                            </ul>
+                        </div>
+                        <div class="package-image">
+                            <img src="img/logopack1.png" alt="pack 1">
+                        </div>
+                    </div>
+                    <button>Ver Más</button>
+                </article>
+        
+                <article class="package" id="pack2">
+                    <h4>ADDS PACK</h4>
+                    <div class="package-content">
+                        <div class="package-text">
+                            <ul>
+                                <li>Creación del contenido</li>
+                                <li>Edición del contenido</li>
+                                <li>Contenido original</li>
+                                <li>Creación de publicidad</li>
+                            </ul>
+                        </div>
+                        <div class="package-image">
+                            <img src="img/logopack2.png" alt="pack 2">
+                        </div>
+                    </div>
+                    <button>Ver Más</button>
+                </article>
+        
+                <article class="package" id="pack3">
+                    <h4>COMMUNITY PACK</h4>
+                    <div class="package-content">
+                        <div class="package-text">
+                            <ul>
+                                <li>Maxima exclusividad</li>
+                                <li>Manejo de redes sociales</li>
+                                <li>Estudio y desarrollo de mercado</li>
+                                <li>Posicion de marca</li>
+                                </ul>
+                        </div>
+                        <div class="package-image">
+                            <img src="img/logopack3.png" alt="pack 3">
+                        </div>
+                    </div>
+                    <button>Ver Más</button>
+                </article>
+            </section>
+
+            <!-- Sección de Por Qué Elegirnos -->
+        <section id="porque-elegirnos" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">¿Por qué elegirnos?</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card motivo-card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Ahorra tiempo y recursos</h3>
+                                <p class="card-text">Enfócate en tu negocio mientras expertos se encargan del marketing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card motivo-card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Estrategias personalizadas</h3>
+                                <p class="card-text">Define objetivos claros y campañas que te diferencien de las demas organizaciones.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card motivo-card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Trabaja con MKT experts</h3>
+                                <p class="card-text">Accede a profesionales en las areas de SEO, SEM, Social Media y mas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card motivo-card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Vanguardia y tendencias</h3>
+                                <p class="card-text">Implementa las últimas tecnologías y mejores prácticas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card motivo-card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Mide y optimiza</h3>
+                                <p class="card-text">Analiza resultados y toma decisiones basadas en datos proporcionados por profesionales.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card motivo-card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Crecimiento</h3>
+                                <p class="card-text">Adapta tu estrategia a cada etapa de crecimiento de tu organización para aprovecharlas al máximo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="contacto-texto">
+                <h2>Contacto</h2>
+                <p>En DG, estamos aquí para escucharte y entender a fondo tu negocio. Queremos conocer tus objetivos y desafíos para poder ofrecerte las soluciones más adecuadas. Nuestro enfoque personalizado nos permite adaptarnos a tus necesidades específicas, brindándote estrategias efectivas y servicios de alta calidad. Contamos con un equipo de expertos en marketing digital y gestión de comunidades que están comprometidos con tu éxito.</p>
+                <p>Para comenzar, simplemente llena el formulario a continuación con tus datos y detalles sobre tu negocio. Nos pondremos en contacto contigo a la mayor brevedad posible para discutir cómo podemos colaborar y trabajar juntos en la construcción de una estrategia digital exitosa. Nuestro proceso de trabajo es transparente y colaborativo, asegurando que estés siempre informado y satisfecho con los resultados. ¡Estamos emocionados de ayudarte a alcanzar tus metas!</p>
+                <p>Si prefieres, también puedes comunicarte con nosotros a través de nuestras redes sociales o enviarnos un correo electrónico a <b>dg.agency@DG.com</b>. Estamos aquí para ayudarte a dar el siguiente paso en tu camino hacia el éxito digital.</p>
+                <div class="contacto-redes">
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:dg.agency@DG.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://telegram.org" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+
+            <div id="contacto"   class="contacto-formulario">
+                <h2>Formulario de Contacto</h2>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    
+                    <label for="apellido">Igrese su mail:</label>
+                    <input type="text" id="mail" name="mail" required>
+                    
+                    <label for="negocio">Nombre de tu Negocio:</label>
+                    <input type="text" id="negocio" name="negocio" required>
+
+                    <label for="paquete">Selecciona un Paquete:</label>
+                    <select id="paquete" name="paquete" required>
+                        <option value="seleccionar">Toca para Seleccionar</option>
+                        <option value="market">Market Pack</option>
+                        <option value="adds">Adds Pack</option>
+                        <option value="community">Community Pack</option>
+                    </select>
+                    
+                    <label for="descripcion">Cuéntanos sobre tu Negocio:</label>
+                    <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+                    
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-section">
+            <h3>Navegación</h3>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#about">Quiénes Somos</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Política y Privacidad</h3>
+            <ul>
+                <li><a href="#privacy">Política de Privacidad</a></li>
+                <li><a href="#terms">Términos y Condiciones</a></li>
+            </ul>
+        </div>
+        <div class="footer-section footer-logo">
+            <h3>Logo</h3>
+            <img src="img/logo.png" alt="Logo">
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
